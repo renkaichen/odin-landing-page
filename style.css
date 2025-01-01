@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 }
 
 .header {
@@ -134,4 +135,37 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.section-3 h2 {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    max-width: 805px;
+}
+
+.textbox h2 {
+    align-self: center;
+}
+
+.textbox p {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
